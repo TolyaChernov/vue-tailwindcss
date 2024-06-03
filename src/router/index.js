@@ -8,6 +8,42 @@ const router = createRouter({
       name: 'home',
       component: () => import('../pages/HomePage.vue')
     },
+
+    {
+      path: '/day-1',
+      name: 'day-1',
+      component: () => import('../pages/Day-1.vue')
+    },
+    {
+      path: '/day-2',
+      name: 'day-2',
+      component: () => import('../pages/Day-2.vue')
+    },
+    {
+      path: '/day-3',
+      name: 'day-3',
+      component: () => import('../pages/Day-3.vue')
+    },
+    {
+      path: '/day-4',
+      name: 'day-4',
+      component: () => import('../pages/Day-4.vue')
+    },
+    {
+      path: '/day-5',
+      name: 'day-5',
+      component: () => import('../pages/Day-5.vue')
+    },
+    {
+      path: '/day-6',
+      name: 'day-6',
+      component: () => import('../pages/Day-6.vue')
+    },
+    {
+      path: '/day-7',
+      name: 'day-7',
+      component: () => import('../pages/Day-7.vue')
+    },
     {
       path: '/about',
       name: 'about',
